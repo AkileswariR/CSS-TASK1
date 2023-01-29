@@ -1,0 +1,27 @@
+    body {
+        background-color: rgb(46, 48, 48);
+    }
+    
+    .flex-container {
+        display: flex;
+        height: 100%;
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+        margin: 5px auto;
+    }
+    
+    p {
+        font-size: 200%;
+        font-weight: 100;
+        color: white;
+        letter-spacing: 35px;
+    }
+    
+    #border {
+        display: inline;
+        border-bottom-style: solid;
+        border-bottom-width: 25px;
+        width: 45%;
+        color: rgb(62, 27, 235);
+    }
