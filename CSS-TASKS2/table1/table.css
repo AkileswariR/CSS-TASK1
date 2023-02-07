@@ -1,0 +1,19 @@
+ body {
+     background-color: gray;
+     text-align: center;
+ }
+ 
+ table {
+     border: 3px solid rgb(24, 18, 18);
+     border-spacing: 0;
+     width: 30%;
+     margin-left: auto;
+     margin-right: auto;
+     font-size: 30px;
+     border-collapse: collapse;
+ }
+ 
+ th,
+ td {
+     border: 5px solid black;
+ }
