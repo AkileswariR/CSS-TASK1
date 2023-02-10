@@ -1,0 +1,149 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: bisque;
+}
+
+.container {
+    background-color: aqua;
+    height: 600px;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 100px;
+}
+
+.info {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    border-radius: 15px;
+    align-items: center;
+}
+
+.meeting {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    flex: 2;
+    align-items: center;
+}
+
+img {
+    border-radius: 50%;
+    height: 40px;
+    width: 60px;
+    margin: 20px 10px;
+}
+
+.top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-right: auto;
+}
+
+.profile {
+    margin: 20px 10px;
+}
+
+h4 {
+    color: blueviolet;
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+}
+
+hr {
+    height: 2px;
+    width: 65%;
+    border-color: blueviolet;
+    display: block;
+    border-style: inset;
+    border-width: 2px;
+    margin: 0.5em 0 0.5em 0;
+}
+
+ul {
+    font-size: medium;
+    font-family: Georgia;
+    list-style: none;
+    align-items: center;
+}
+
+.details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+li {
+    padding: 15px;
+    margin-left: 55px;
+    justify-content: space-around;
+}
+
+.fa-calendar {
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.disabled {
+    pointer-events: none;
+    opacity: 0.6;
+}
+
+.align {
+    margin-left: auto;
+    margin-right: 50px;
+}
+
+.meeting {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-right: 100px;
+    width: 700px;
+}
+
+.radiusbox {
+    border-radius: 25px;
+    background: #f7f8f6;
+    width: 450px;
+    height: 40px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+span {
+    position: relative;
+    margin-left: 30px;
+    top: 10px;
+}
+
+.icon {
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+
+.time {
+    float: right;
+    right: 50px;
+}
+
+.last {
+    padding-left: 40px;
+    pointer-events: none;
+    opacity: 0.6;
+}
