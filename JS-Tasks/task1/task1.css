@@ -1,0 +1,6 @@
+.btn {
+    margin: 25px auto;
+    height: 30px;
+    width: 100px;
+    display: flex;
+}

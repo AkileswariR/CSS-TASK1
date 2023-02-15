@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>task5</title>
+    </head>
+    <body>
+        <ul>
+            <li>ravi</li>
+            <li>chandrika</li>
+            <li>jothi</li>
+            <li>arun</li>
+            <li>akiles</li>
+            <li>Harish</li>
+            <li>saran</li>
+            <li>snehu</li>
+            <li>shasha</li>
+            <li>shaira</li>
+        </ul>
+    </body>
+    <script>
+    const list = document.getElementsByTagName("li");
+    console.log(list);
+    for (i = 0; i < list.length; i++) {
+        list[i].addEventListener("click", myFunction);
+    }
+
+    function myFunction() {
+        let value = Array.prototype.indexOf.call(list, this);
+        if (value % 2 === 0) {
+            this.style.color = "red";
+        } else {
+            this.style.color = "green";
+        }
+    }
+    </script>
+</html>
