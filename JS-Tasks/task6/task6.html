@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link href="./task6.css" rel="stylesheet">
+    </head>
+    <body>
+        <button type="button" id="button" onclick="changecolor()">CLICK HERE</button>
+    </body>
+    <script>
+    const colors = ["red", "blue", "green", "yellow", "purple", "pink", "orange"];
+    let colorCount = {};
+
+
+    function changecolor() {
+        let randomColor = Math.floor(Math.random() * colors.length);
+        let displaycolor = colors[randomColor];
+        document.body.style.backgroundColor = displaycolor;
+        if (colorCount[displaycolor]) {
+            colorCount[displaycolor] += 1;
+        } else {
+            colorCount[displaycolor] = 1;
+        }
+        console.log(colorCount);
+    }
+    </script>
+</html>

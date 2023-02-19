@@ -1,0 +1,13 @@
+button {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    height: 50px;
+    width: 100px;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
