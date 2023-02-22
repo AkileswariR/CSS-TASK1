@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Display Pressed Key</title>
+</head>
+
+<body>
+    <h1>Display Pressed Key</h1>
+    <p id="pressedKey"></p>
+    <script>
+        document.addEventListener("keydown", function(event) {
+            const pressedKey = event.key.toUpperCase();
+            const pressedKeyp = document.getElementById("pressedKey");
+            pressedKeyp.textContent = pressedKey;
+        });
+    </script>
+</body>
+
+</html>
