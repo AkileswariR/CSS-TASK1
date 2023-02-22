@@ -1,0 +1,70 @@
+    * {
+        padding: 0;
+        margin: 0%;
+        box-sizing: border-box;
+    }
+    
+    body {
+        width: 100vw;
+        height: 100vh;
+    }
+    
+    .container {
+        width: 500px;
+        height: 400px;
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: calc(50% - 500px/2);
+        top: calc(50% - 400px/2);
+    }
+    
+    .red {
+        background-color: red;
+        border-top-left-radius: 5%;
+        border-top-right-radius: 5%;
+        border-bottom-left-radius: 5%;
+        height: 200px;
+        width: 200px;
+        border: 1px solid white;
+    }
+    
+    .blue {
+        background-color: blue;
+        border-top-right-radius: 5%;
+        border-bottom-right-radius: 5%;
+        border-top-left-radius: 5%;
+        height: 200px;
+        width: 200px;
+        border: 1px solid white;
+    }
+    
+    .green {
+        background-color: green;
+        border-top-left-radius: 5%;
+        border-bottom-right-radius: 5%;
+        border-bottom-left-radius: 5%;
+        height: 200px;
+        width: 200px;
+        border: 1px solid white;
+    }
+    
+    .pink {
+        background-color: palevioletred;
+        border-top-right-radius: 5%;
+        border-bottom-right-radius: 5%;
+        border-bottom-left-radius: 5%;
+        height: 200px;
+        width: 200px;
+        border: 1px solid white;
+    }
+    
+    h3 {
+        text-align: center;
+        margin: 50% auto;
+    }
+    
+    .add {
+        display: flex;
+        flex-direction: row;
+    }
