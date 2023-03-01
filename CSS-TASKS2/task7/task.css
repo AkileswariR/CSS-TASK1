@@ -147,3 +147,13 @@ span {
     pointer-events: none;
     opacity: 0.6;
 }
+
+.input-container input::placeholder {
+    text-align: center;
+}
+
+.input-container i {
+    position: relative;
+    top: 60%;
+    left: 60px;
+}
