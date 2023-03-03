@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.outbox-1 {
+    background-color: #f53677;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 40%;
+    width: 40%;
+}
+
+.outbox-2 {
+    background-color: hsla(232, 64%, 48%, 0.725);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 40%;
+    width: 40%;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+section .imgBx {
+    position: relative;
+    width: 50%;
+    height: 90%;
+    left: 5%;
+    top: 5%;
+}
+
+img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contentBx {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    width: 50%;
+    background-color: #ffffff;
+    margin-top: 35px;
+    margin-right: 5%;
+}
+
+.formBx {
+    width: 50%;
+}
+
+h2 {
+    color: #262829;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    border-bottom: 4px solid #ff4584;
+    display: inline-block;
+}
+
+section .contentBx .formBx .inputBx {
+    margin-bottom: 20px;
+}
+
+.formBx .inputBx span {
+    font-size: 16px;
+    color: #607d8b;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.inputBx input {
+    width: 100%;
+    padding: 10px 20px;
+    font-weight: 400;
+    border: 1px solid #607d8b;
+    font-size: 16px;
+    background: transparent;
+    border-radius: 30px;
+}
+
+section .contentBx .formBx .inputBx input[type="submit"] {
+    background: #ff4584;
+    color: #fff;
+    font-weight: 500;
+}
+
+.remember {
+    margin-bottom: 10px;
+    color: #607d8b;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.inputBx p {
+    color: #607d8b;
+}
+
+.inputBx p a {
+    color: #ff4584;
+}
+
+h3 {
+    color: #607d8b;
+    text-align: center;
+    margin: 80px 0 10px;
+    font-weight: 500;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo li {
+    list-style: none;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #607d8b;
+    border-radius: 50%;
+    margin: 0 7px;
+    cursor: pointer;
+}
+
+.logo li:hover {
+    background: #ff4584;
+}
